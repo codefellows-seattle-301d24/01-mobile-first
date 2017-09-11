@@ -12,13 +12,13 @@ Today we'll be kicking off our Blog App by applying what we learned in lectures 
 When you are finished with lab, follow these steps to submit your work. Create one Pull Request (aka: "PR") from your Forked repo to the CF repo with your changes, and you'll each submit that same PR link in Canvas.
 
 1. Ensure that all your local changes are committed, and pushed to your origin repo.
-1. Visit the origin repo on github.com, and ensure that all of your completed work has been merged to master via Pull Requests within your repo.
-1. Create a new PR from your Fork to the CF repo and ensure the branches look correct.
-1. Fill in the template based on the text box prompts:
+2. Visit the origin repo on github.com, and ensure that all of your completed work has been merged to master via Pull Requests within your repo.
+3. Create a new PR from your Fork to the CF repo and ensure the branches look correct.
+4. Fill in the template based on the text box prompts:
   1. Write a good descriptive summary of your changes:
     1. Be sure to include how much time you spent on it, and who you worked with.
-    1. Briefly reflect on and summarize your process.
-1. When you create the PR, it will have a unique URL. Copy this link, share with your partner, and paste it into the assignment submission form in Canvas. Both the driver and the navigator will submit the same PR link.
+    2. Briefly reflect on and summarize your process.
+5. When you create the PR, it will have a unique URL. Copy this link, share with your partner, and paste it into the assignment submission form in Canvas. Both the driver and the navigator will submit the same PR link.
 
 ---
 
@@ -29,37 +29,39 @@ When you are finished with lab, follow these steps to submit your work. Create o
 Here is the recommended workflow (*We reviewed this in class*):
 
 1. Driver: fork the CF Lab 01 repository if you haven't done so already.
-1. Your **forked repo** on GitHub will be your "origin" repo. Clone **your fork** to your local development environment:
+2. Your **forked repo** on GitHub will be your "origin" repo. `Clone` **your fork** to your local development environment:
   1. If you haven't done so yet, create a directory named "301" - `mkdir 301/` (This will be your parent 301 directory and set you up for organizational success!)
-  1. Next, `cd 301/`
-  1. `mkdir lab-assignments` to house the pair assignment repos.
-  1. `cd lab-assignments`
-  2. `mkdir my-forked-labs`
-  3. `cd my-forked-labs`
-  1. `git clone` this repo.
-  1. `cd` into this repo.
-  1. Immediately `git checkout -b <driverName-navigatorName>` (ex: `git checkout -b rick-brian`).  
+  2. Next, `cd 301/`
+  3. `mkdir lab-assignments` to house the pair assignment repos.
+  4. `cd lab-assignments`
+  5. `mkdir my-forked-labs`
+  6. `cd my-forked-labs`
+  7. `git clone` **YOUR OWN FORKED** repo.
+  8. `cd` into this repo and create a directory for your and your partner's work (ex: `mkdir rick-brian`)
+  9. Immediately `git checkout -b <driverName-navigatorName>` (ex: `git checkout -b rick-brian`).  
+  10. Navigate into the above directory and copy in all of the code for the day's assignment
+  11. Get to work!
 
 ### Write code together!
 
 Find those `TODO` items in the code, and tackle one of them.
 
-1. Driver: In your terminal, ensure that:
+1. **Driver**: In your terminal, ensure that:
    - you are on a branch with you and your partner's namesake.
-   - you are currently within the starter-code directory.
+   - you are currently within the `starter-code` directory.
 
-1. Type `atom .` to open this starter-code folder as a project in Atom.
-1. Use the Atom "Find in Project" (command shift "f" if on a Mac) to locate all the `TODO:` items.
-1. Work through one or two TODO items before switching roles (or one hour, whichever arrives first), testing your code as you go.
-1. In your terminal type `git status` to view the files that you have changed. You should only see the files that you have worked on.
-2. Type `git diff` to see line-item changes with your down arrow key. (Type `q` to exit this mode!)
-1. Type `git add file1 file2` where file1, file2, etc. are the files that you have changed.
-1. Type `git status` to view the files that have been added to your commit. You should only see the files that you worked on.
-1. Type `git commit -m "some meaningful message"` where Some meaningful message is a message that **thoroughly** explains your commit.
-1. Type `git status` to ensure there is nothing left to commit.
-1. Type `git push origin your-name-partner-name` to push this branch to your forked repo on GitHub.
-2. On GitHub, Add your navigator as a collaborator (go to settings -> collaborators).
-3. Once they have been added, `Slack` to your partner your forked repo link for them to clone down.
+2. Type `atom .` to open this `starter-code` folder as a project in Atom.
+3. Use the Atom "Find in Project" (command-shift "f" if on a Mac, control-shift on other machines) to locate all the `TODO:` items.
+4. Work through one or two `TODO` items before switching roles (or one hour, whichever arrives first), testing your code as you go.
+5. In your terminal type `git status` to view the files that you have changed. You should only see the files that you have worked on.
+6. Type `git diff` to see line-item changes with your down arrow key. (Type `q` to exit this mode!)
+7. Type `git add file1 file2` where file1, file2, etc. are the files that you have changed.
+8. Type `git status` to view the files that have been added to your commit. You should only see the files that you worked on.
+9. Type `git commit -m "some meaningful message"` where "Some meaningful message" is a message that **thoroughly** explains your commit.
+10. Type `git status` to ensure there is nothing left to commit.
+11. Type `git push origin your-name-partner-name` to push this branch to your forked repo on GitHub.
+12. On GitHub, Add your navigator as a collaborator (go to settings -> collaborators).
+13. Once they have been added, `Slack` to your partner your forked repo link for them to clone down.
 
 ### Switch roles
 
