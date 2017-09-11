@@ -1,4 +1,8 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
+
+img {
+  height: 30vh;
+  width: 30vw;
+}
 
 body {
   line-height: 1.5;
