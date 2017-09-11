@@ -70,5 +70,6 @@
    }
    .main-nav ul li {
      float: right;
+     padding: 2vw;
    }
  }
