@@ -9,6 +9,10 @@
 	font-style: normal;
 }
 
+.icon-menu3:before {
+  content: "\e902";
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
