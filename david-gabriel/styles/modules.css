@@ -66,6 +66,10 @@
   }
   .main-nav ul {
     display: inline;
+    position: absolute;
+    bottom: -17%;
+    right: 0;
+    width: 40%;
   }
   .main-nav li {
     float: left;
