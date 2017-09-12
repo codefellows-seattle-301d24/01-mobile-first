@@ -35,3 +35,11 @@ a:hover, a:focus {
 
 a:visited {
 }
+
+/*IMAGE STYLES
+=====================================*/
+
+img {
+  width: 10vw;
+  overflow: hidden;
+}
