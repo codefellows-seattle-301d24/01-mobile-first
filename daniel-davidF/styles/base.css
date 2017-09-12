@@ -1,6 +1,12 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
-img {
-  max-width: 100%;
+/* DONE: Add a rule for images, so they never exceed their container's width. */
+img{
+  overflow: hidden;
+ /*
+  width: 20vw;
+  height: 20vh;*/
+  max-width: 150px;
+  
+
 }
 body {
   line-height: 1.5;
