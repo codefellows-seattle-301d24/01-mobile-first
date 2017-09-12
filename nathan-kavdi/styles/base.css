@@ -1,7 +1,6 @@
-
+/* TODO: Add a rule for images, so they never exceed their container's width. DONE */
 img {
-  height: 30vh;
-  width: 30vw;
+  width: 100%;
 }
 
 body {
