@@ -64,16 +64,20 @@
   visibility: hidden;
   }
   .main-nav ul {
-    display: inline-flex;
+    display: inline;
   }
   .main-nav li {
-    margin-right: .4em;
+    float: left;
+    margin: 0 1.5em;
     font-size: 1.8em;
-    padding: .5em .2em;
+    padding: 0;
     border-bottom: 1px solid #ccc;
   }
   .main-nav{
     text-align: center;
     clear: left;
+  }
+  .main-nav:hover ul {
+    display: inline;
   }
 }
